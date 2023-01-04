@@ -1,0 +1,29 @@
+now here the question says that the password is in a human readable file in the inhere directory 
+so lets try reading it then
+first we encounter a messedup terminal right ? 
+coz we have been working on the same terminal's page for so many levels
+to clear up that mess we can use the command reset
+type- reset
+now we got a clear terminal
+now use the command pwd to know the present directory 
+type- pwd
+we are not in the inhere directory so use cd command to change the directory
+type- cd inhere
+now list all the files in the inhere dir
+for this i shall use the command ls 
+type- ls
+now you can see many files in it 
+now we need to find which file is a human readable file in all of them 
+so type the following commands to get that and refer the appropriate comments for the explanations
+type- find . -type f | xargs file                   //find is a command used to find something relevent to the arguments given 
+                                                    //we used a '.'this . is used to search accross the whole directory 
+                                                    //we used '-' this is used for providing the arguments
+                                                    // then type f is basicall mentioning that i am searching for a type f ,f indicates its a file by this i mean i am seaching for a file type in the directory
+                                                    //xargs is nothing but saying that i am providing with some extra arguments
+                                                    // since it is a human readable file i used file in the last in xargs
+after executing this i got a list of files and their content type on my terminal
+here in my case file07 contained ascii text so now i am going to read that file and get that password
+for reading i am going to use the cat command so
+type- cat ./-file07        // since that was my file name
+finally we get our required password
+level complete!
