@@ -1,0 +1,8 @@
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+here the file is given 
+so directly sort the file then count the occurence of each by using uniq command
+type-sort data.txt | uniq -c                            //sort sorts the data in the file
+                                                        //| piping does the passing of output of one command to another one
+                                                        // uniq -c checks for the repetition of that data and arg 'c' counts its occurenc
+the one with 1 as its index is our required password
+lvl up!
