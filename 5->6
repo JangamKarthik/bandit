@@ -1,0 +1,21 @@
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+human-readable
+1033 bytes in size
+not executable
+so these were the conditions i mean specifications of the file that contains the password
+now first check your current working directory by using pwd command
+type- pwd
+now change the directory to inhere by using command cd
+type- cd inhere
+now find the file using find command and giving appropriate arguments
+type- find . -type f -size 1033c ! -executable                      //we used - to pass args
+                                                               //we wrote type f to say that the thing that we are searching for is of file type
+                                                               // we wrote size 1033c basically we passed another arg saying that its size is of 1033 and c indicates size in bytes
+                                                               // if we dont mention c defaultly it will be considered as size in bits
+                                                               //! is used for saying not in any programming langs
+                                                               // -executable the whole says not executable
+now in my case the file name was ./maybehere07/.file2
+now just read the file using cat we get our password
+type- cat ./maybehere07/.file2
+lvl up!
