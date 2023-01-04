@@ -1,0 +1,15 @@
+here the challenge is it is stored in a hidden file in the inhere dir
+so first change your current directory to inhere dir 
+it can be done by using the command cd
+type- cd inhere
+now you are in the required inhere directory 
+now print the file names in the current directory 
+type- ls
+you get nothing because the file is hidden so now we need to pass a argument saying list all the files even if it is hidden
+so we use '-' to pass an argument
+type- ls -a
+this will give you the hidden file name
+note: all the hidden files name starts with '.'
+so copy that name then use cat command
+type- cat .hidden            //since my filename was .hidden
+you get your required password with this
