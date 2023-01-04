@@ -1,0 +1,6 @@
+// The password for the next level is stored in a file called spaces in this filename located in the home directory
+here everything is fine but there is only one challenge there are spaces in the file name
+so in order to read these kinda files there is a way i.e
+by adding '\' after every word in the filename so that i understands that as the whole word
+type- strings spaces\ in\ this\ filename
+and you get your required password the next lvl
