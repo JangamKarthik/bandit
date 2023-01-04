@@ -1,0 +1,6 @@
+
+given that it is a txt file named data.txt with the password preceded by '='
+now its too simple just read the file using strings command since they mentioned the password as human readable string and find the password using grep command
+type- strings data.txt | grep "="
+this will give us the required password for next level
+lvl up!
