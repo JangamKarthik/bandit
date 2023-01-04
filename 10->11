@@ -1,0 +1,8 @@
+The password for the next level is stored in the file data.txt, which contains base64 encoded data
+okay in this we have base 64 encoded data that is our required password
+so we need to decode that in oreder to get our data
+so we for that purpose we use the command base64 -d                        //this i found it on the man page
+now lets try doing it
+type- strings data.txt | base64 -d
+this will give you the required password
+lvl up!
