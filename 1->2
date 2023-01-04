@@ -1,0 +1,5 @@
+//The password for the next level is stored in a file called - located in the home directory
+here the file name is - so same as the previous one just read the file using strings
+but the file - is an executable file so we need to put a ./ before the file name then read it
+type- strings ./-
+ with this you got your password so gg move to the next level!
